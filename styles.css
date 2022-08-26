@@ -12,6 +12,17 @@
     border-radius: 8px;
     padding: 4px 20px;
     justify-self: flex-end;
+    margin: 4px;
+}
+
+.default-button:hover {
+    transition: all 200ms ease;
+    background-color: #5794f5a6;
+    color: #E5E7EB ;
+    font-weight: 300;
+    border-radius: 8px;
+    padding: 4px 20px;
+    cursor: pointer;
 }
 
 p::-webkit-scrollbar{
@@ -30,16 +41,6 @@ body::-webkit-scrollbar-thumb {
 background-color: #1F2937;
 border-radius: 10px;
 border: 1px solid #E3E3E3;
-}
-
-.default-button:hover {
-    transition: all 200ms ease;
-    background-color: #5794f5a6;
-    color: #E5E7EB ;
-    font-weight: 300;
-    border-radius: 8px;
-    padding: 4px 20px;
-    cursor: pointer;
 }
 
 .main-container {
@@ -168,6 +169,7 @@ border: 1px solid #E3E3E3;
 
 .third-section {
     background-color: #E5E7EB;
+    padding-top: 16px;
     text-align: left;
     font-size: 36px;
     font-weight: 300;
@@ -175,7 +177,12 @@ border: 1px solid #E3E3E3;
     justify-content: center;
 }
 
+.third-section > p {
+    overflow: auto;
+}
+
 .author {
+    padding: 16px;
     font-size: 18px;
     font-weight: 800;
     text-align: end;
